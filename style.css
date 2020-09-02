@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&display=swap');
+body {
+  background: #F7F9FC;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+p{
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+i {
+  font-size: 30px
+}
+
+/*ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}*/
+
+.profile_image{
+  width: 100px;
+  border-radius: 10%;
+}
+
+.social-media-card{
+  color: white;
+  background: rgb(30, 30, 30);
+  margin: 30px 20px;
+  padding: 1px;
+  border-radius: 3%;
+  /*porque ta zuado isso aqui*/
+}
+
+.social-media-card a {
+  color: white;
+}
+
+.card-white{
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 5px 5px 3px gray;
+  background-color: white;
+  text-align: center
+}
+
+
+h2, h3, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-dark-gray {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-dark-gray:hover {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
